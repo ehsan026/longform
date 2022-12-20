@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+#FormBox{
+    background: white;
+    width: 700px;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#FormBox #Heading h2{
+    font-size: 28px;
+}
+
+#FormBox #Heading p{
+    width: 50px;
+    height: 4px;
+    margin: 5px 0 15px;
+    background-color: #00DBDE;
+}
+
+#FormBox #Main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#FormBox #Main div{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#FormBox #Main div:nth-child(5){
+    margin-bottom: 0;
+}
+
+#FormBox #Main div:nth-child(6){
+    margin-bottom: 0;
+}
+
+#FormBox #Main div input{
+    height: 33px;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+#FormBox #Main div label{
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#Footer #Gender{
+    margin: 15px 0 23px;
+}
+
+#Footer #Gender h2{
+    font-weight: 500;
+    font-size: 21px;
+    color: #333333;
+}
+
+#Footer #Gender #radioInputs{
+    display: flex;
+    margin-top: 8px;
+}
+
+#Footer #Gender #radioInputs div{
+    flex: 1;
+}
+
+#Footer #Gender #radioInputs div label{
+    font-size: 15px;
+    margin-left: 2px;
+    user-select: none;
+}
+
+#Footer button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    background-color: #00DBDE;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    border-radius: 2px;
+    cursor: pointer;
+}
